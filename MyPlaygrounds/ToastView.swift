@@ -99,28 +99,3 @@ class ToastView: UIView {
         )
     }
 }
-
-class TriangleView: UIView {
-    var fillColor: UIColor = .white
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        setLeftTriangle()
-    }
-    
-    private func setLeftTriangle(){
-        let heightWidth = frame.size.width
-        let path = CGMutablePath()
-        
-        path.move(to: CGPoint(x: heightWidth/2, y: 0))
-        path.addLine(to: CGPoint(x: 0, y: heightWidth/2))
-        path.addLine(to: CGPoint(x: heightWidth/2, y: heightWidth))
-        path.addLine(to: CGPoint(x: heightWidth/2, y: 0))
-        
-        let shape = CAShapeLayer()
-        shape.path = path
-        shape.fillColor = fillColor.cgColor
-        
-        layer.insertSublayer(shape, at: 0)
-    }
-}
