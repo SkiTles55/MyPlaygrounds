@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import CryptoKit
 
 extension String {
     var containsWhitespace : Bool {
@@ -18,5 +19,13 @@ extension String {
             return UIApplication.shared.canOpenURL(url as URL)
         }
         return false
+    }
+    
+    func hash256() -> String {
+        // iOS 13.0
+        let inputData = Data(utf8)
+        
+        let hashed = SHA256.hash(data: inputData)
+        return hashed.compactMap { String(format: "%02x", $0) }.joined()
     }
 }

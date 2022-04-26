@@ -22,6 +22,7 @@
 		0A76153C281111BF004A363C /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76153B281111BF004A363C /* ToastView.swift */; };
 		0A76153E281111F7004A363C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76153D281111F7004A363C /* UIColor+Extension.swift */; };
 		0A76154028111244004A363C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76153F28111244004A363C /* UIView+Extension.swift */; };
+		0A8C3C5028179B3B00C3ED5A /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C3C4F28179B3B00C3ED5A /* LoadingOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		0A76153B281111BF004A363C /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		0A76153D281111F7004A363C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		0A76153F28111244004A363C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0A8C3C4F28179B3B00C3ED5A /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0A76153928110FD2004A363C /* UIViewScaling.swift */,
 				0A76153B281111BF004A363C /* ToastView.swift */,
 				0A72ADFC2812921A007A0316 /* TriangleView.swift */,
+				0A8C3C4F28179B3B00C3ED5A /* LoadingOverlay.swift */,
 			);
 			path = MyPlaygrounds;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				0A76153A28110FD2004A363C /* UIViewScaling.swift in Sources */,
 				0A76154028111244004A363C /* UIView+Extension.swift in Sources */,
 				0A76153428110C2A004A363C /* UIDocumentPickerViewController+Extension.swift in Sources */,
+				0A8C3C5028179B3B00C3ED5A /* LoadingOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
