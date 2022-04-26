@@ -18,10 +18,10 @@ public class LoadingOverlay {
         return Static.instance
     }
 
-    public func show(in view: UIView) {
+    public func show() {
         loader.removeFromSuperview()
-        loader.frame = view.bounds
-        view.addSubview(loader)
+        loader.frame = UIScreen.main.bounds
+        UIApplication.shared.windows.first(where: { $0.isKeyWindow })?.addSubview(loader)
         loader.activityIndicator.startAnimating()
     }
 
