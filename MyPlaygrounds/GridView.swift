@@ -16,11 +16,11 @@ class GridView: UIView {
     var startY: CGFloat = 0
 
     fileprivate var gridWidth: CGFloat {
-        return (bounds.width - startX) / CGFloat(gridWidthMultiple)
+        return (bounds.width - startX) / gridWidthMultiple
     }
 
     fileprivate var gridHeight: CGFloat {
-        return (bounds.height - startY) / CGFloat(gridHeightMultiple)
+        return (bounds.height - startY) / gridHeightMultiple
     }
     
     fileprivate var labelAttributes: [NSAttributedString.Key : NSObject] {
