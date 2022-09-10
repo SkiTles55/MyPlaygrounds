@@ -14,4 +14,8 @@ extension UIView {
             addSubview(v)
         }
     }
+    
+    var isLightMode: Bool {
+        self.traitCollection.userInterfaceStyle != .dark
+    }
 }

@@ -28,6 +28,10 @@
 		0A8C3C5028179B3B00C3ED5A /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C3C4F28179B3B00C3ED5A /* LoadingOverlay.swift */; };
 		0A8C3C542818198B00C3ED5A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C3C532818198B00C3ED5A /* UIImage+Extension.swift */; };
 		0A97E2B4283F30E300900C78 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A97E2B3283F30E300900C78 /* UINavigationController+Extension.swift */; };
+		0AFB763528CCA5E700B42D1C /* VCSwitcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB763428CCA5E700B42D1C /* VCSwitcherViewController.swift */; };
+		0AFB763728CCA68D00B42D1C /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB763628CCA68D00B42D1C /* CALayer+Extension.swift */; };
+		0AFB763928CCA70C00B42D1C /* SizableModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB763828CCA70C00B42D1C /* SizableModalPresentationController.swift */; };
+		0AFB763B28CCA76700B42D1C /* PlaceholderColoredTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB763A28CCA76700B42D1C /* PlaceholderColoredTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		0A8C3C4F28179B3B00C3ED5A /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
 		0A8C3C532818198B00C3ED5A /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		0A97E2B3283F30E300900C78 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		0AFB763428CCA5E700B42D1C /* VCSwitcherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSwitcherViewController.swift; sourceTree = "<group>"; };
+		0AFB763628CCA68D00B42D1C /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		0AFB763828CCA70C00B42D1C /* SizableModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizableModalPresentationController.swift; sourceTree = "<group>"; };
+		0AFB763A28CCA76700B42D1C /* PlaceholderColoredTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderColoredTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,9 @@
 				0A83366A282E5C8400EC95F4 /* SelectButton.swift */,
 				0A83366C282E5D2400EC95F4 /* GridView.swift */,
 				0A73E3642834AA80004AB514 /* LeftAlignedImageBox.swift */,
+				0AFB763428CCA5E700B42D1C /* VCSwitcherViewController.swift */,
+				0AFB763828CCA70C00B42D1C /* SizableModalPresentationController.swift */,
+				0AFB763A28CCA76700B42D1C /* PlaceholderColoredTextField.swift */,
 			);
 			path = MyPlaygrounds;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 				0A76153F28111244004A363C /* UIView+Extension.swift */,
 				0A8C3C532818198B00C3ED5A /* UIImage+Extension.swift */,
 				0A97E2B3283F30E300900C78 /* UINavigationController+Extension.swift */,
+				0AFB763628CCA68D00B42D1C /* CALayer+Extension.swift */,
 			);
 			path = MyExtensions;
 			sourceTree = "<group>";
@@ -203,7 +215,10 @@
 				0A1574B828000D04004494E8 /* ViewController.swift in Sources */,
 				0A1574B428000D04004494E8 /* AppDelegate.swift in Sources */,
 				0A76153E281111F7004A363C /* UIColor+Extension.swift in Sources */,
+				0AFB763B28CCA76700B42D1C /* PlaceholderColoredTextField.swift in Sources */,
 				0A83366B282E5C8400EC95F4 /* SelectButton.swift in Sources */,
+				0AFB763928CCA70C00B42D1C /* SizableModalPresentationController.swift in Sources */,
+				0AFB763728CCA68D00B42D1C /* CALayer+Extension.swift in Sources */,
 				0A76153628110E87004A363C /* UITableView+Extension.swift in Sources */,
 				0A1574B628000D04004494E8 /* SceneDelegate.swift in Sources */,
 				0A76153828110EC3004A363C /* String+Extension.swift in Sources */,
@@ -212,6 +227,7 @@
 				0A76154028111244004A363C /* UIView+Extension.swift in Sources */,
 				0A76153428110C2A004A363C /* UIDocumentPickerViewController+Extension.swift in Sources */,
 				0A83366D282E5D2400EC95F4 /* GridView.swift in Sources */,
+				0AFB763528CCA5E700B42D1C /* VCSwitcherViewController.swift in Sources */,
 				0A8C3C5028179B3B00C3ED5A /* LoadingOverlay.swift in Sources */,
 				0A73E3652834AA80004AB514 /* LeftAlignedImageBox.swift in Sources */,
 				0A97E2B4283F30E300900C78 /* UINavigationController+Extension.swift in Sources */,
